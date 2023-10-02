@@ -1,0 +1,23 @@
+/*----Style for css-demo----*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*------global styles------ */
+  body{
+  font-family: 'Gabarito', cursive;
+  }
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {}
