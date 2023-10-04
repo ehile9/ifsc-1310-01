@@ -18,6 +18,59 @@ html {
 body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+margin: 0;
 }
 
-header {}
+header.primary {
+background-color: 2733db;
+color: antiquewhite;
+text-shadow: 2px 2px000;
+text-align: center;
+padding:20px 40px 20px 40px;
+}
+
+header.primary h1 {
+  background-color: chartreuse;
+  font-size: 2.4rem;
+  margin: 20px 0 10px;
+}
+header.primary h1 a{
+  color:white;
+  text-decoration:none;
+
+}
+header.primary h2{
+
+  font-size: 1.4rem;
+  margin:0;
+}
+header.primary nav{
+
+  background-color: burlywood;
+  max-width: 900px;
+  margin:25px auto;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+header.primary nav ul li{
+  list-style-type: none;
+}
+header.primary nav ul li a{
+color: antiquewhite;
+text-decoration: none;
+background-color: burlywood;
+background-color: rgba(0,0,0,.4);
+padding: 5px 10px;
+border: 1px solid black;
+border-radius: 10px 5px;
+transition: .5s;
+}
+header.primary nav ul li a:hover{background-color: rgba(0,0,0,.8) }
