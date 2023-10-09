@@ -25,15 +25,15 @@ margin: 0;
 }
 
 header.primary {
-background-color: 2733db;
-color: antiquewhite;
+background-color: #2733db;
+color: #db6009;
 text-shadow: 2px 2px000;
 text-align: center;
 padding:20px 40px 20px 40px;
 }
 
 header.primary h1 {
-  background-color: chartreuse;
+  background-color: #db6009;
   font-size: 2.4rem;
   margin: 20px 0 10px;
 }
