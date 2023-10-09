@@ -10,7 +10,22 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+
+
+
+
   /*------global styles------ */
+
+
+/*------------responsive Images-----*/
+
+img{
+max-width:100%;
+
+}
+
+
   body{
   font-family: 'Gabarito', cursive;
   }
@@ -49,7 +64,7 @@ header.primary h2{
 }
 header.primary nav{
 
-  background-color: burlywood;
+  background-color: none;
   max-width: 900px;
   margin:25px auto;
 }
@@ -66,7 +81,7 @@ header.primary nav ul li{
 header.primary nav ul li a{
 color: antiquewhite;
 text-decoration: none;
-background-color: burlywood;
+background-color: none;
 background-color: rgba(0,0,0,.4);
 padding: 5px 10px;
 border: 1px solid black;
@@ -74,3 +89,96 @@ border-radius: 10px 5px;
 transition: .5s;
 }
 header.primary nav ul li a:hover{background-color: rgba(0,0,0,.8) }
+
+
+
+.container{
+  max: width 80vw;
+  margin:40px auto;
+
+}
+#intro{
+ border-bottom: 1px dashed #2733db; 
+ padding-bottom:14px;
+}
+#intro h2{
+  color: #2733db;
+  border-bottom: #2733db;
+
+}
+#content{
+  display:flex;
+  flex-direction:row;
+  gap: 20px;
+
+}
+#content .post{
+box-shadow: 0 4px 8px rgba(0,0,0,.4);
+padding: 10px;
+border-radius: 4px;
+font-size: 8.rem;
+
+
+}
+#content article.post:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,.4);
+}
+
+article.post figure{
+  margin:0;
+}
+time.post-date, article.post figcaption, article.post .post-meta{
+  text-transform: uppercase;
+
+}
+article.post a{
+
+  color: aqua;
+
+}
+article.post a:hover{
+  text-decoration: none;
+}
+
+
+article.post img{
+  border:1px solid #2733db;
+  padding:2px 2px 20px 2px;
+  margin:10px auto;
+  background: #db6009;
+}
+aside[role="complementary"]{
+  color:red;
+}
+aside .container{
+  display:flex;
+  flex-direction: row;
+  gap:40px;
+}
+
+/*----------------End of Header---------------*/
+
+
+
+
+
+
+
+
+
+
+/*-----------------Media Queries---------------------- */
+
+
+@media screen and (max-width:600px){
+header.primary nav ul{
+  flex-direction:column;
+  max-width: 250px;
+  margin:auto
+}
+header.primary nav ul a{
+  display:block;
+}
+
+
+}
