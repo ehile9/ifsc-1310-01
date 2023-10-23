@@ -43,7 +43,14 @@ box-shadow: 5px 5px 2px #db6009;
   background-color: gray;
   box-shadow: 5px 5px 2px #db6009;
   }
-  
+  .img-center{
+display:block;
+margin: 15px auto;
+border: 2px solid gray;
+padding: 5px;
+background-color: gray;
+box-shadow: 5px 5px 2px #db6009;
+  }
 
   /* ---------global styles------ */
   
