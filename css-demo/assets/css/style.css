@@ -189,7 +189,7 @@ caption{
 }
 
 tr:nth-child(odd){
-  background-color: rgba(0,0,195,.4);
+  background-color: rgba(39, 51, 219,.5);
 }
 tr:hover{
   background-color: #db6009;
@@ -205,6 +205,59 @@ td:nth-child(n+2){
 td{
   border:1px solid #db6009;
   padding: 5px;
+}
+
+#practice ol{
+  clear:both;
+  list-style-type: lower-roman;
+}
+#practice ul{
+list-style-type:circle;
+}
+#practice ul ul{
+  list-style-type:"⛅";
+}
+dl{
+  width: 50%;
+  background: #2733db;
+  color:chartreuse;
+  margin:auto;
+  text-align: center;
+}
+dt{
+  font-weight: bolder;
+  
+}
+dd+dt{
+  margin-top: 20px;
+}
+dd{
+  margin:0;
+}
+#practice h4{
+  border-left: 20px solid #2733db;
+  padding: 10px;
+  color: chartreuse;
+  background-color: rgba(0,0,0,.4);
+}
+#practice blockquote{
+  background: rgba(25, 25, 212, 0.677);
+  padding: 20px 30px 20px 30px;
+  margin: 50px auto;
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px #db6009;
+  color:chartreuse;
+  border: 2px solid chartreuse;
+  border-radius: 15px;
+}
+
+#practice blockquote cite{
+  display: block;
+  text-align: right;
+  font-size: .8rem;
+  margin-top: 10px;
+  color:#db6009;
 }
 
 aside[role="complementary"]{
