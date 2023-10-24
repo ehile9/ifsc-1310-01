@@ -178,8 +178,34 @@ article.post img{
   border-bottom: 2px solid #db6009;
 }
 
+table{
+  border:1px solid #db6009;
+  width:100%;
+  border-collapse: collapse;
+}
+caption{
+  font-size: large;
+  color: #db6009;
+}
 
-
+tr:nth-child(odd){
+  background-color: rgba(0,0,195,.4);
+}
+tr:hover{
+  background-color: #db6009;
+}
+th{
+  background-color: #2733db;
+  color:white;
+  padding: 10px;
+}
+td:nth-child(n+2){
+  text-align: right;
+}
+td{
+  border:1px solid #db6009;
+  padding: 5px;
+}
 
 aside[role="complementary"]{
   background-color: #2733db;
