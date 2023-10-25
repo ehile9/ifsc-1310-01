@@ -27,6 +27,7 @@ height:auto;
   max-width:80vw;
   margin:40px auto;
 }
+<<<<<<< HEAD
 .img-right{
 float:right;
 margin: 10px 0 10px 20px;
@@ -51,14 +52,47 @@ padding: 5px;
 background-color: gray;
 box-shadow: 5px 5px 2px #db6009;
   }
+=======
 
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border: 2px dashed #2733db;
+  padding: 5px;
+  box-shadow: 4px 4px 1px rgba(0,0,0,.8);
+}
+.img-left{
+  float:right;
+  margin: 10px 20px 10px 0;
+  border: 2px dashed #2733db;
+  padding: 5px;
+  box-shadow: 4px 4px 1px rgba(0,0,0,.8);
+}
+.img-center{
+display: block;
+margin:20px auto;
+border: 2px dashed #2733db;
+padding: 5px;
+box-shadow: 4px 4px 1px rgba(0,0,0,.8);
+>>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
+
+
+
+}
   /* ---------global styles------ */
   
 
 body{
 font-family: 'Roboto Serif', serif;
 margin:0;
+<<<<<<< HEAD
 
+=======
+background-image: url("../../../assets/img/cssdiner.png");
+background-repeat: space;
+background-size: contain;
+background-position: center;
+>>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
 }
 
 header.primary {
@@ -172,6 +206,7 @@ article.post img{
   margin:10px auto;
   background: #db6009;
 }
+<<<<<<< HEAD
 
 #practice h2{
   color: #2733db;
@@ -264,6 +299,21 @@ dd{
   margin-top: 10px;
   color:#db6009;
 }
+=======
+#practice h2{
+  color:#2733db;
+  border-bottom: 2px dashed db6009;
+}
+
+
+
+
+
+
+
+
+
+>>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
 
 aside[role="complementary"]{
   background-color: #2733db;
@@ -278,6 +328,7 @@ aside .container{
 }
 
 aside .container a:last-of-type{
+<<<<<<< HEAD
   color: chartreuse;
 display:block;
 text-align:right;
@@ -300,6 +351,31 @@ aside footer{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%237fff00' fill-opacity='0.8'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
 }
+=======
+  color:white;
+  display:block;
+  text-align: right;
+  font-size: .8rem;
+  margin-top: 10px;
+}
+
+aside .container a{color:#ffffff;
+}
+
+aside footer{
+  display: none;
+}
+
+#colophone{
+  background-color:#2733db;
+  padding: 10px;
+  color:white;
+  text-align: center;
+}
+
+
+
+>>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
 
 
 
@@ -311,8 +387,20 @@ aside footer{
   header.primary nav ul {
   flex-direction: column;
   max-width: 250px;
+<<<<<<< HEAD
   margin: auto;
   gap: 10px;
+=======
+  margin:auto;
+  gap:10px;
+  #content {
+    flex-direction: column;
+  }
+}
+#content img{
+  display:block;
+  margin:auto;
+>>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
 }
 header.primary nav ul a {
   display:block;
