@@ -23,7 +23,7 @@ height:auto;
 /*  ----------------Utility Classes------------------  */
 
 
-.container {
+.container{
   max-width:80vw;
   margin:40px auto;
 }
@@ -54,31 +54,12 @@ box-shadow: 5px 5px 2px #db6009;
   }
 
 
-.img-right {
-  float:right;
-  margin: 10px 0 10px 20px;
-  border: 2px dashed #2733db;
-  padding: 5px;
-  box-shadow: 4px 4px 1px rgba(0,0,0,.8);
-}
-.img-left {
-  float:right;
-  margin: 10px 20px 10px 0;
-  border: 2px dashed #2733db;
-  padding: 5px;
-  box-shadow: 4px 4px 1px rgba(0,0,0,.8);
-}
-.img-center {
-display: block;
-margin:20px auto;
-border: 2px dashed #2733db;
-padding: 5px;
-box-shadow: 4px 4px 1px rgba(0,0,0,.8);
->>>>>>> 7bcf4d10e78f2015e3d0307a1428537115ab850c
 
 
 
-}
+
+
+
   /* ---------global styles------ */
   
 
