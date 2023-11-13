@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+/*------------responsive Images-----*/
+
+img{
+max-width:100%;
+height:auto;
+}
+
+
+
+
+header.primary{
+    background-image: url="https://sxcontent9668.azureedge.us/cms-assets/assets/Starship_Website_Page_2023_Half_Quality_cc86c19c82.mp4" ;
+}
