@@ -28,6 +28,14 @@ height:auto;
 
 
 
-header.primary{
-    background-image: url="https://sxcontent9668.azureedge.us/cms-assets/assets/Starship_Website_Page_2023_Half_Quality_cc86c19c82.mp4" ;
+header.primary::before {
+  content: "";
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starship_Website_Page_2023_Half_Quality_cc86c19c82.mp4");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
 }
