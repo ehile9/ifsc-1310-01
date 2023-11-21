@@ -1,10 +1,4 @@
 
-body{
-    font-family: 'Noto Sans', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto Serif', serif;
-font-family: 'Work Sans', sans-serif;
-}
 
 /*  ---------------Box Sizing-----------------  */
 
@@ -24,21 +18,20 @@ img{
 max-width:100%;
 height:auto;
 }
+/* ----- Global Styles ---- */
 
+body{
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Work Sans', sans-serif;
+}
 
 
 
 header.primary::before {
   content: "";
-  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starship_Website_Page_2023_Half_Quality_cc86c19c82.mp4");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.4;
+
+ 
 }
-body {
-  background-image: //.//assets/img/dragon-landing 960 wide.jpg ;
-}
+
