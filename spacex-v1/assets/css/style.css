@@ -100,9 +100,23 @@ header.primary nav ul li a:hover{
     }
   
 
-
-
+    #content h4 {
+      position: relative;
+      color: #5E6FCA;
+      text-shadow: 1px 1px #000000;
+      text-align:center;
+      padding:40px;
+      }
     
+
+      #content h5 {
+        position: relative;
+        color: #5E6FCA;
+        text-shadow: 1px 1px #000000;
+        text-align:center;
+        padding:40px;
+        }
+      
   
 
 
