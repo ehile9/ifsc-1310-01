@@ -46,7 +46,7 @@ header.primary {
   
   header .primary::before {
     content: "";
-    background-image: url("../assets/img/dragon-landing960wide.jpg");
+    background-image: 
     position: absolute;
     top: 0;
     left: 0;
