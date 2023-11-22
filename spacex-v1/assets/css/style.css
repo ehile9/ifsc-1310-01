@@ -1,4 +1,7 @@
-
+/*  -------Colors
+                #5E6FCA
+                #ff0000
+                #ffffff------ */
 
 /*  ---------------Box Sizing-----------------  */
 
@@ -27,11 +30,117 @@ font-family: 'Roboto Serif', serif;
 font-family: 'Work Sans', sans-serif;
 }
 
-
-
-header.primary::before {
-  content: "";
-
- 
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding:0;
 }
+header.primary {
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #000000;
+  text-align:center;
+  padding:40px;
+  }
+  
+  header .primary::before {
+    content: "";
+    background-image: url("../assets/img/dragon-landing960wide.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    opacity: 0.2;
+  }
+
+header.primary nav ul li{
+  list-style-type:none;
+}
+
+header.primary nav ul li a {
+color: #ffffff;
+text-decoration:none;
+background-color: #5E6FCA;
+background-color: rgba(58, 115, 230, 0.8);
+padding:5px 10px;
+border:1px solid black;
+border-radius: 10px 10px;
+transition:.5s;
+}
+
+header.primary nav ul li a:hover{
+  background-color:rgba(255, 0, 0, 0.8); 
+}
+
+.background h2 {
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #000000;
+  text-align:center;
+  padding:40px;
+  }
+
+#content h2 {
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #000000;
+  text-align:center;
+  padding:40px;
+  }
+
+  #content h3 {
+    position: relative;
+    color: #5E6FCA;
+    text-shadow: 1px 1px #000000;
+    text-align:center;
+    padding:40px;
+    }
+  
+
+
+
+    
+  
+
+
+
+
+
+
+
+/*  ----------------Utility Classes------------------  */
+
+
+.container{
+  max-width:80vw;
+  margin:40px auto;
+}
+
+.img-right {
+float:right;
+margin: 10px 0 10px 20px;
+border: 2px solid gray;
+padding: 5px;
+background-color: gray;
+box-shadow: 5px 5px 2px #ff0000;
+}
+.img-left {
+  float:left;
+  margin: 10px 20px 20px 30px;
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: gray;
+  box-shadow: 5px 5px 2px #ff0000;
+  }
+  .img-center {
+display:block;
+margin: 15px auto;
+border: 2px solid gray;
+padding: 5px;
+background-color: gray;
+box-shadow: 5px 5px 2px #ff0000;
+  }
 
