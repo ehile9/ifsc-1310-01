@@ -147,20 +147,21 @@ header.primary nav ul li a:hover{
         
         padding:0px;
         }
-        #content.history {
+        .history {
           background-image: url("../img/space-nebula.jpg");
-          
+          font-size: 1.2rem;
+          color: #ff0000;
           background-size: cover;
         }
       
         table{
-          border:1px solid #db6009;
+          border:1px solid #ff0000;
           width:100%;
           border-collapse: collapse;
         }
         caption{
           font-size: large;
-          color: #db6009;
+          color: #ff0000;
         }
         
         tr:nth-child(odd){
@@ -178,7 +179,7 @@ header.primary nav ul li a:hover{
           text-align: right;
         }
         td{
-          border:1px solid #db6009;
+          border:1px solid #ff0000;
           padding: 5px;
         }
 
