@@ -45,6 +45,7 @@ header.primary::before {
   bottom: 0px;
   left: 15px;
   opacity: 0.4;
+  z-index: -1;
 }
   
 header.primary h1 a {
