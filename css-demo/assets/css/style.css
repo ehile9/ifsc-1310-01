@@ -329,6 +329,7 @@ aside footer{
   max-width: 250px;
   margin:auto;
   gap:10px;
+  
   #content {
     flex-direction: column;
   }
