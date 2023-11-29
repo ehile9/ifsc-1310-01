@@ -1,0 +1,242 @@
+/*  -------Colors
+                #5E6FCA
+                #ff0000
+                #ffffff------ */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+/*------------responsive Images-----*/
+
+img{
+max-width:100%;
+height:auto;
+}
+/* ----- Global Styles ---- */
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Work Sans', sans-serif;
+}
+header.primary{
+  height: 800px;
+ 
+}
+
+header.primary::before {
+  content: "";
+  background-image: url("../img/dragon-landing960wide.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 15px;
+  opacity: 0.4;
+  z-index: -1;
+}
+  
+header.primary h1 a {
+  color: #ffffff;
+  background-image: url("../img/spacex-logo\ small.png");
+  
+  display: block;
+  width: 300px;
+  height: 37px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+  header.primary nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    position: relative;
+    padding:0;
+  }
+
+header.primary nav ul li{
+  list-style-type:none;
+}
+
+header.primary nav ul li a {
+color: #ffffff;
+text-decoration:none;
+background-color: #5E6FCA;
+background-color: rgba(58, 115, 230, 0.8);
+padding:5px 10px;
+border:3px solid black;
+border-radius: 10px 10px;
+transition:.5s;
+}
+
+header.primary nav ul li a:hover{
+  background-color:rgba(255, 0, 0, 0.8); 
+}
+
+.primary h2 {
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #ff0000;
+  text-align:center;
+  padding:40px;
+  }
+  .background h2 {
+    position: relative;
+    color: #5E6FCA;
+    text-shadow: 1px 1px #ff0000;
+    text-align:center;
+    padding:40px;
+  }
+  .dragonlanding img{
+    display: block;
+    margin: auto;
+  }
+  #content ul li {
+    list-style-type: none;
+  }
+
+#content h2 {
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #ff0000;
+  text-align:center;
+  padding:40px;
+  }
+
+  #content h3 {
+    position: relative;
+    color: #5E6FCA;
+    text-shadow: 1px 1px #ff0000;
+    text-align:center;
+    
+    }
+    caption h3 {
+      position: relative;
+      color: #5E6FCA;
+      text-shadow: 1px 1px #ff0000;
+      text-align:center;
+      padding:40px;
+      }
+
+    #content h4 {
+      position: relative;
+      color: #5E6FCA;
+      text-shadow: 1px 1px #ff0000;
+      
+      padding:0px;
+      }
+    
+
+      #content h5 {
+        position: relative;
+        color: #5E6FCA;
+        text-shadow: 1px 1px #ff0000;
+        
+        padding:0px;
+        }
+        .history {
+          background-image: url("../img/space-nebula.jpg");
+          font-size: 1.2rem;
+          color: #ff0000;
+          background-size: cover;
+        }
+      
+        table{
+          border:1px solid #ff0000;
+          width:100%;
+          border-collapse: collapse;
+        }
+        caption{
+          font-size: large;
+          color: #ff0000;
+        }
+        
+        tr:nth-child(odd){
+          background-color: rgba(94, 111, 202, .5);
+        }
+        tr:hover{
+          background-color: rgba(255, 0, 0, 0.8)
+        }
+        th{
+          background-color: #5E6FCA;
+          color:white;
+          padding: 10px;
+        }
+        td:nth-child(n+2){
+          text-align: right;
+        }
+        td{
+          border:1px solid #ff0000;
+          padding: 5px;
+        }
+
+      footer {
+        background-color: #ffffff;
+        text-align: center;
+        font-size: .8rem;
+        height: 604px;
+      }
+      
+#colophon{
+
+  background-image: url("../img/dragon-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#colophon:hover{
+  
+  font-size: 2.2rem;
+  color: rgba(255, 0, 0, 0.8);
+}
+
+
+
+
+/*  ----------------Utility Classes------------------  */
+
+
+.container{
+  max-width:80vw;
+  margin:40px auto;
+}
+
+.img-right {
+float:right;
+margin: 10px 0 10px 20px;
+border: 2px solid gray;
+padding: 5px;
+background-color: gray;
+box-shadow: 5px 5px 2px #ff0000;
+}
+.img-left {
+  float:left;
+  margin: 10px 20px 20px 30px;
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: gray;
+  box-shadow: 5px 5px 2px #ff0000;
+  }
+  .img-center {
+display:block;
+margin: 15px auto;
+border: 2px solid gray;
+padding: 5px;
+background-color: gray;
+box-shadow: 5px 5px 2px #ff0000;
+  }
+
