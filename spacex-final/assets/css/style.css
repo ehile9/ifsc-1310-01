@@ -31,7 +31,7 @@ font-family: 'Work Sans', sans-serif;
 }
 header.primary{
   display: block;
-  max-height: 400px;
+  max-height: 450px;
   padding: 50px;
 
  
@@ -40,14 +40,13 @@ header.primary{
 header.primary::before {
   content: "";
   background-image: url("../img/dragon-landing960wide.jpg");
-  
-  
-  background-size: contain;
+  background-size: cover;
   position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   max-height: 350px;
- 
-  
-  
   top: 0px;
   right: 0px;
   bottom: 0px;

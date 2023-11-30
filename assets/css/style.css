@@ -35,7 +35,7 @@ padding:20px 20px 20px 20px;
 border:3px solid black;
 border-radius: 10px 10px;
 transition:.5s;
-margin: 10px 600px 10px 600px;
+margin: 10px 580px 10px 580px;
 }
 h1:hover{
     background-color: rgba(176, 175, 144, 0.5)
@@ -48,6 +48,18 @@ h2 {
 
 #progressive{
     background-color: aqua;
+}
+
+cite {
+  display: block;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#gartner {
+  display: block;
+  margin: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 @counter-style thumbs {
     system: cyclic;
