@@ -40,8 +40,33 @@ margin: 10px 600px 10px 600px;
 h1:hover{
     background-color: rgba(176, 175, 144, 0.5)
 }
-
+h2 {
+    margin-left: 40px;
+    color: royalblue;
+    text-decoration: underline;
+}
 
 #progressive{
     background-color: aqua;
 }
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D";
+    suffix: " ";
+  }
+  
+  ul {
+    list-style: thumbs;
+    list-style-position: inside;
+  }
+  #writing ul {
+    margin: 20px;
+    list-style: "🌐";
+  }
+  #writing h2 {
+    text-align: center;
+    color:  rgba(0, 241, 144);
+  }
+  #writing aside ul {
+    list-style: "🐇"
+  }
