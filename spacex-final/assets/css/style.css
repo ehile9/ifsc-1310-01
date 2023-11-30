@@ -30,16 +30,24 @@ font-family: 'Roboto Serif', serif;
 font-family: 'Work Sans', sans-serif;
 }
 header.primary{
-  height: 800px;
+  display: block;
+  max-height: 400px;
+  padding: 50px;
+
  
 }
 
 header.primary::before {
   content: "";
   background-image: url("../img/dragon-landing960wide.jpg");
-  background-repeat: no-repeat;
+  
+  
   background-size: contain;
   position: absolute;
+  max-height: 350px;
+ 
+  
+  
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -153,6 +161,7 @@ header.primary nav ul li a:hover{
           font-size: 1.2rem;
           color: #ff0000;
           background-size: cover;
+          display: block;
         }
       
         table{
