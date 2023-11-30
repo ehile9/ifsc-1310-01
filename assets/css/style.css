@@ -59,6 +59,11 @@ h2 {
     list-style: thumbs;
     list-style-position: inside;
   }
+
+#writing {
+  margin: 30px;
+}
+
   #writing ul {
     margin: 20px;
     list-style: "🌐";
