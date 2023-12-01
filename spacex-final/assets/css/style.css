@@ -192,6 +192,26 @@ header.primary nav ul li a:hover{
           padding: 5px;
         }
 
+        details > summary {
+         margin-left: auto;
+         margin-right: auto;
+          padding: 2px 6px;
+          width: 15em;
+          background-color: rgba(94, 111, 202, .2);
+          border: 3px solid #ff0000;
+          box-shadow: 3px 3px 4px #5E6FCA;
+          cursor: pointer;
+          list-style: "🚀"
+        }
+        #faq {
+          color: #5E6FCA;
+          background-color: rgba(94, 111, 202, .2);
+          border: 2px solid black;
+          box-shadow: 3px 3px 4px 4px #5E6FCA;
+          border-radius: 20px;
+          padding-left: 10px;
+        }
+
       footer {
         background-color: #ffffff;
         text-align: center;
