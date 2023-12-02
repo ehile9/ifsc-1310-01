@@ -211,6 +211,29 @@ header.primary nav ul li a:hover{
           border-radius: 20px;
           padding-left: 10px;
         }
+        #banner h2{
+          position: relative;
+          color: #5E6FCA;
+          text-shadow: 1px 1px #ff0000;
+          text-align:center;      
+        }
+           #gallery {
+          justify-content:space-between;
+          position: relative;
+          padding:0;
+        }
+#dragon {
+  display: block; 
+}
+#dragon h3{
+  position: relative;
+  color: #5E6FCA;
+  text-shadow: 1px 1px #ff0000;
+  text-align:center;
+  
+}
+
+
 
       footer {
         background-color: #ffffff;
@@ -248,22 +271,23 @@ margin: 10px 0 10px 20px;
 border: 2px solid gray;
 padding: 5px;
 background-color: gray;
-box-shadow: 5px 5px 2px #ff0000;
+box-shadow: 2px 2px 2px #ff0000;
 }
 .img-left {
   float:left;
+  
   margin: 10px 20px 20px 30px;
   border: 2px solid gray;
   padding: 5px;
   background-color: gray;
-  box-shadow: 5px 5px 2px #ff0000;
+  box-shadow: 2px 2px 2px #ff0000;
   }
   .img-center {
-display:block;
+
 margin: 15px auto;
 border: 2px solid gray;
 padding: 5px;
 background-color: gray;
-box-shadow: 5px 5px 2px #ff0000;
+box-shadow: 2px 2px 2px #ff0000;
   }
 
