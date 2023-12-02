@@ -101,7 +101,7 @@ header.primary nav ul li a:hover{
   text-align:center;
   padding:40px;
   }
-  .background h2 {
+  #background h2 {
     position: relative;
     color: #5E6FCA;
     text-shadow: 1px 1px #ff0000;
@@ -261,13 +261,13 @@ header.primary nav ul li a:hover{
 
 
 .container{
-  max-width:80vw;
-  margin:40px auto;
+  max-width: 80vw;
+  margin: 40px auto;
 }
 
 .img-right {
 float:right;
-margin: 10px 0 10px 20px;
+margin: 20px 10px 20px 10px;
 border: 2px solid gray;
 padding: 5px;
 background-color: gray;
@@ -276,18 +276,18 @@ box-shadow: 2px 2px 2px #ff0000;
 .img-left {
   float:left;
   
-  margin: 10px 20px 20px 30px;
+  margin: 20px 10px 20px 10px;
   border: 2px solid gray;
   padding: 5px;
   background-color: gray;
   box-shadow: 2px 2px 2px #ff0000;
   }
-  .img-center {
+.img-center {
 
-margin: 15px auto;
-border: 2px solid gray;
-padding: 5px;
-background-color: gray;
-box-shadow: 2px 2px 2px #ff0000;
+    margin: 20px 60px 20px 10px;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: gray;
+    box-shadow: 2px 2px 2px #ff0000;
   }
 
