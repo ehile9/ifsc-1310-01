@@ -220,11 +220,10 @@ header.primary nav ul li a:hover{
       }
       
 #colophon{
-
-  background-image: url("../img/dragon-logo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    
+    background-image: url("../img/dragon-logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #colophon:hover{
   
