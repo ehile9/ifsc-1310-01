@@ -1,13 +1,32 @@
 body{
     background-color:darkgray;
 }
-
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
 img{
-    max-width:100%;
+    max-width:95%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    
 }
-
+img {
+    
+    border-radius: 50%;
+    border: solid 5px chartreuse;
+    box-shadow: 0px 4px 4px 4px orange;
+  }
+ 
 .container{
-    margin:40px auto;
+    padding: 10px;
+    margin:150px auto;
     width:70vw;
     /* Set Max Content Width */
     max-width:700px;
