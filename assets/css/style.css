@@ -148,12 +148,20 @@ cite {
  .red{
   color: white;
   background-color: red;
+  margin: 20px;
  }
  .green{
   background-color: green;
   color: white;
+  margin: 20px;
  }
  .blue{
   color: white;
   background-color: blue;
+  margin: 20px;
+ }
+ #ribbon {
+  border: 4px dashed red;
+  border-radius: 4px;
+
  }
