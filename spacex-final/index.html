@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&family=Work+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css">
+
 <link href="assets/css/style.css" rel="stylesheet" />
     <title>Space X Dragon | Home</title>
 
@@ -100,13 +103,15 @@
     
         <header id="banner"><h2>Dragon Gallery</h2></header>
         <section id="gallery" class="container">
-        <img src="assets/img/dragon-capsule-5-gallery.jpg" alt="image of dragon capsule" class="img-left"  />
-        <img src="assets/img/dragon-landing-gallery.jpg" alt="image of dragon capsule landing" class="img-center"/>
-        <img src="assets/img/dragon-trunk-render-gallery.jpg" alt="image of dragon trunk rendering" class="img-right"/>
-        <img src="assets/img/dragon-v2-01-gallery.jpg" alt="image of dragon capsule mockup" class="img-left"/>
-        <img src="assets/img/dragon-v2-interior-gallery.jpg" alt="image of dragon capsule interior" class="img-center"/>
-        <img src="assets/img/spacex-abort-test-infographic-gallery.jpg" alt="image of abort test inforgraphic" class="img-right"/>
-
+            <div class="fade container">
+        <div><img src="assets/img/dragon-capsule-5-gallery.jpg" alt="image of dragon capsule" /></div>
+        <div><img src="assets/img/dragon-landing-gallery.jpg" alt="image of dragon capsule landing" /></div>
+        <div><img src="assets/img/dragon-trunk-render-gallery.jpg" alt="image of dragon trunk rendering" /></div>
+        <div><img src="assets/img/dragon-v2-01-gallery.jpg" alt="image of dragon capsule mockup" /></div>
+        <div><img src="assets/img/dragon-v2-interior-gallery.jpg" alt="image of dragon capsule interior" /></div>
+        <div><img src="assets/img/spacex-abort-test-infographic-gallery.jpg" alt="image of abort test inforgraphic" /></div>
+    </div>
+    <!--closing div for gallery-->
     </section>
     <header id="dragon"><h3><a href="https://www.spacex.com/vehicles/dragon/">Full Dragon Experience</a></h3></header>
     <footer id="colophon" >
@@ -117,6 +122,9 @@
     
     
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/prism.min.js"></script>       
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>
