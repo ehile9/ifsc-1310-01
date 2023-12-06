@@ -107,3 +107,53 @@ cite {
     margin-left: 400px;
     margin-right: 400px;
   }
+  #revisions{
+    border-radius: 4px;
+    border: 4px dashed green;
+    background-color: rgba(128, 128, 128, .4);
+    margin: auto;
+  }
+  
+  #revisions h2{
+    background-color: yellow;
+    margin: 20px;
+    display: block;
+    border: 4px dashed red;
+    padding: 50px;
+    
+    color: black;
+
+  }
+  #revisions p{
+    padding: 30px;
+  }
+  #revisions h3{
+    color: #C02CF5;
+    text-align: center;
+  }
+  .bow{
+    text-align: center;
+    font-size: 5rem;
+    background-color: blue;
+    margin-bottom: -80px;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+  }
+ #christmas {
+  border-radius: 4px;
+  border: 4px dashed blue;
+  padding: 4px;
+ }
+ .red{
+  color: white;
+  background-color: red;
+ }
+ .green{
+  background-color: green;
+  color: white;
+ }
+ .blue{
+  color: white;
+  background-color: blue;
+ }
