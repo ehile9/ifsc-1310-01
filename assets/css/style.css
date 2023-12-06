@@ -142,7 +142,7 @@ cite {
   }
  #christmas {
   border-radius: 4px;
-  border: 4px dashed blue;
+  border: 4px dashed red;
   padding: 4px;
  }
  .red{
@@ -161,7 +161,7 @@ cite {
   margin: 20px;
  }
  #ribbon {
-  border: 4px dashed red;
+  border: 4px dashed blue;
   border-radius: 4px;
 
  }
