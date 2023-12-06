@@ -292,13 +292,23 @@ box-shadow: 2px 2px 2px #ff0000;
     background-color: gray;
     box-shadow: 2px 2px 2px #ff0000;
   }
+  #gallery{
+    background-color: rgba(94, 111, 202, .7);
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
   #gallery.fade{
+    
     display: block;
     margin: 15px auto;
   }
 
 .fade{
-    padding: 10px;
+    padding: 0px;
+    
     margin:30px auto;
     width:90vw;
     /* Set Max Content Width */
