@@ -41,15 +41,26 @@ h1:hover{
     background-color: rgba(176, 175, 144, 0.5)
 }
 h2 {
-    margin-left: 40px;
+    margin-left: 60px;
     color: royalblue;
     text-decoration: underline;
 }
 
 #progressive{
     background-color: aqua;
+    color: green;
+    text-shadow: .5px .5px white;
+    border: 1px solid black;
+}
+#pelinks li{
+  display: block;
+  margin: 10px 500px 20px 400px
 }
 
+#accessibility {
+margin-top: 40px;
+border-top: 3px double blue;
+}
 cite {
   display: block;
   margin-left: 70px;
@@ -86,4 +97,13 @@ cite {
   }
   #writing aside ul {
     list-style: "🐇"
+   
+
+  }
+  aside{
+    display: block;
+    text-align: center;
+    background-color: orange;
+    margin-left: 400px;
+    margin-right: 400px;
   }
